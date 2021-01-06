@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro.local",
+    "children" : [ {
+      "name" : "2585@MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "f569f95e98f315d",
+        "parentUid" : "babdcc3ccd9c040822c9323c0e967b01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609252906831,
+          "stop" : 1609252908339,
+          "duration" : 1508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "babdcc3ccd9c040822c9323c0e967b01"
+    }, {
+      "name" : "2384@MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "3e51b7e763c6596b",
+        "parentUid" : "639b89a2ca69dabd7d9b388bf3382ae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609252471970,
+          "stop" : 1609252473598,
+          "duration" : 1628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "639b89a2ca69dabd7d9b388bf3382ae9"
+    } ],
+    "uid" : "e792a61be548a1d4ff631ca281f20c17"
+  } ]
+}

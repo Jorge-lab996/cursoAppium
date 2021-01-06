@@ -1,0 +1,123 @@
+{
+  "uid" : "3e51b7e763c6596b",
+  "name" : "test1",
+  "fullName" : "testSuites.example2.test1",
+  "historyId" : "3dd8c997135a6342a3abcb0232cf8b28",
+  "time" : {
+    "start" : 1609252471970,
+    "stop" : 1609252473598,
+    "duration" : 1628
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "iniciarSesion",
+    "time" : {
+      "start" : 1609252450082,
+      "stop" : 1609252461776,
+      "duration" : 11694
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Validar vista carrusel",
+      "time" : {
+        "start" : 1609252472938,
+        "stop" : 1609252473592,
+        "duration" : 654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8b368556cda077e",
+        "name" : "Imagen Adjunto",
+        "source" : "f8b368556cda077e.png",
+        "type" : "image/png",
+        "size" : 467354
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cerrarSesion",
+    "time" : {
+      "start" : 1609252473611,
+      "stop" : 1609252473951,
+      "duration" : 340
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testSuites.example2"
+  }, {
+    "name" : "testClass",
+    "value" : "testSuites.example2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "CursoAppium"
+  }, {
+    "name" : "subSuite",
+    "value" : "testSuites.example2"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2384@MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e51b7e763c6596b.json",
+  "parameterValues" : [ ]
+}
