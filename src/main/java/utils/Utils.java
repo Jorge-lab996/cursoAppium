@@ -25,8 +25,8 @@ public class Utils {
         }
     }
     public static void swipeAbajo(){
-        int ancho = (int) (DriverContext.getDriver().manage().window().getSize().width * 0.08D);
-        int puntoInicio = (int) (DriverContext.getDriver().manage().window().getSize().height * 0.09D);
+        int ancho = (int) (DriverContext.getDriver().manage().window().getSize().width * 0.8D);
+        int puntoInicio = (int) (DriverContext.getDriver().manage().window().getSize().height * 0.9D);
         int puntoTermino  = (int) (DriverContext.getDriver().manage().window().getSize().height * 0.65D);
 
         TouchAction touchAction = new TouchAction(DriverContext.getDriver());
